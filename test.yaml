@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test_backstage
+  description: 'Backstage Backend API'
+  links:
+  - title: Project Summary
+    url: https://weareroam.atlassian.net/wiki/spaces/RM/pages/2051932166/BUCK+Project+Summary
+  tags:
+    - buck
+    - container
+    - backend
+    - sauce-5
+  annotations:
+    github.com/project-slug: Roamltd/westpac-buck-backend-confidential
+    github.com/team-slug: Roamltd/westpac-buck-devsecops
+    github.com/project-readme-path: README.md
+    backstage.io/view-url: https://github.com/Roamltd/westpac-buck-backend-confidential
+    backstage.io/edit-url: https://github.com/Roamltd/roam-backstage-catalog-internal/blob/dev/catalog/components/buck.yaml
+    backstage.io/source-location: url:https://github.com/Roamltd/westpac-buck-backend-confidential
+    newrelic.com/dashboard-guid: MjgxOTM0M3xWSVp8REFTSEJPQVJEfGRhOjI5Njc1NA
+spec:
+  type: service
+  lifecycle: production
+  owner: group:westpac-buck-devsecops
+  memberOf: group:westpac-buck-devsecops
+  providesApis:
+    - buck
+
