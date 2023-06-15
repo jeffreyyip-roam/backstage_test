@@ -19,6 +19,7 @@ metadata:
     backstage.io/edit-url: https://github.com/Roamltd/roam-backstage-catalog-internal/blob/dev/catalog/components/buck.yaml
     backstage.io/source-location: url:https://github.com/Roamltd/westpac-buck-backend-confidential
     newrelic.com/dashboard-guid: MjgxOTM0M3xWSVp8REFTSEJPQVJEfGRhOjI5Njc1NA
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   lifecycle: production
@@ -26,4 +27,3 @@ spec:
   memberOf: group:westpac-buck-devsecops
   providesApis:
     - buck
-
