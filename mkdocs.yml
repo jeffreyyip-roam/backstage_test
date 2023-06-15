@@ -1,0 +1,7 @@
+site_name: 'backstage-test'
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
