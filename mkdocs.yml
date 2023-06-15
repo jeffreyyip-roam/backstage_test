@@ -1,4 +1,5 @@
 site_name: 'backstage-test'
+repo_url: https://github.com/jeffreyyip-roam/backstage_test
 
 nav:
   - Home: index.md
