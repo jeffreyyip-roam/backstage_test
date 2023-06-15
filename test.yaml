@@ -13,11 +13,9 @@ metadata:
     - sauce-5
   annotations:
     github.com/project-slug: jeffreyyip-roam/backstage_test
-    github.com/project-readme-path: README.md
     backstage.io/view-url: https://github.com/jeffreyyip-roam/backstage_test
     backstage.io/edit-url: https://github.com/jeffreyyip-roam/backstage_test/blob/master/test.yaml
     backstage.io/source-location: url:https://github.com/jeffreyyip-roam/backstage_test
-    newrelic.com/dashboard-guid: MjgxOTM0M3xWSVp8REFTSEJPQVJEfGRhOjI5Njc1NA
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
