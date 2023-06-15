@@ -16,7 +16,7 @@ metadata:
     backstage.io/view-url: https://github.com/jeffreyyip-roam/backstage_test
     backstage.io/edit-url: https://github.com/jeffreyyip-roam/backstage_test/blob/master/test.yaml
     backstage.io/source-location: url:https://github.com/jeffreyyip-roam/backstage_test
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: url:https://github.com/jeffreyyip-roam/backstage_test/blob/master/docs
 spec:
   type: service
   lifecycle: production
