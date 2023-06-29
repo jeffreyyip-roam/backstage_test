@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: test_backstage
-  description: 'Backstage Backend API'
+  name: docs_within_docs
+  description: 'Docs within docs'
   links:
   - title: Project Summary
     url: https://weareroam.atlassian.net/wiki/spaces/RM/pages/2051932166/BUCK+Project+Summary
