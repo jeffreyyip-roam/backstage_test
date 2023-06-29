@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test_backstage
+  description: 'Backstage Backend API'
+  links:
+  - title: Project Summary
+    url: https://weareroam.atlassian.net/wiki/spaces/RM/pages/2051932166/BUCK+Project+Summary
+  tags:
+    - buck
+    - container
+    - backend
+    - sauce-5
+  annotations:
+    github.com/project-slug: jeffreyyip-roam/backstage_test/blob/master/docs_within_docs
+    backstage.io/view-url: https://github.com/jeffreyyip-roam/backstage_test/blob/master/docs_within_docs
+    backstage.io/edit-url: https://github.com/jeffreyyip-roam/backstage_test/blob/master/docs_within_docs/docs.yaml
+    backstage.io/source-location: url:https://github.com/jeffreyyip-roam/backstage_test/blob/master/docs_within_docs
+    backstage.io/techdocs-ref: url:https://github.com/jeffreyyip-roam/backstage_test/blob/master/docs_within_docs
+spec:
+  type: service
+  lifecycle: production
+  owner: group:westpac-buck-devsecops
+  memberOf: group:westpac-buck-devsecops
+  providesApis:
+    - buck
