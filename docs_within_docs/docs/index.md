@@ -3,9 +3,9 @@ id: edison-project-knowledge
 title: Docs Within Docs
 ---
 
-# Edison Project Knowledge
+# Docs within Docs
 
-# Edison
+# Docs within Docs
 
 ## Description
 
